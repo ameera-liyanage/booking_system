@@ -1,0 +1,49 @@
+.header {
+    background-color: #FFCB05;
+    padding: 15px 60px;
+    position: relative;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.phone-image {
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+}
+
+.contact-number {
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+}
+
+.profile {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+.profile-image {
+    width: 30px;
+    height: 30px;
+}
+
+.images-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+
+.second-image {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px;
+}
+
