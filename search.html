@@ -32,12 +32,17 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/search.css" />
-    <link rel="stylesheet" type="text/css" href="css/media_queries.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_media_queries.css" />
+    <link rel="stylesheet" type="text/css" href="css/search_media_queries.css" />
+    
   </head>
 
   <body>
     <div class="header">
         <div class="position-relative">
+            <div class="header-logo">
+                <img src="assets/logo/header-logo.jpg" class="logo" alt="img">
+            </div>
           <div class="contact-details">
               <img src="assets/header/phone-call.png" class="phone-image" alt="call-img">
               <span class="contact-number">+94 71 255 888 22 </span>
@@ -58,8 +63,217 @@
     </div>
 
     <div class="map-view">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nuwara%20eliya&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1500px;}</style><a href="https://www.embedgooglemap.net">embedding google maps in html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div></div>
+        <div class="mapouter"><div class="gmap_canvas map-view"><iframe width="100%" class="map-size" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nuwara%20eliya&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><a href="https://www.embedgooglemap.net">embedding google maps in html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width: 600px;;}</style></div></div>
+    </div>
 
+    <div class="search-result">
+        <div class="row no-gutters search-result-row">
+            <div class="col-lg-3 col-md-12">
+                <div class="search-result-box">
+                    <label class="search-result-box-title">
+                        Destination
+                    </label>
+                    <div class="search-result-box-input">
+                        <input type="text" class="place-input" name="" id="" placeholder="Where are you going?">
+                    </div>
+                    <label class="search-result-box-title">
+                        Check-in-date
+                    </label>
+                    <div class="search-result-box-input">
+                        <input type="date" class="search-input-box" name="" id="">
+                    </div>
+                    <label class="search-result-box-title">
+                        Check-out-date
+                    </label>
+                    <div class="search-result-box-input">
+                        <input type="date" class="search-input-box" name="" id="">
+                    </div>
+                    <label class="search-result-box-title">Adults</label>
+                        <select name="" id="" class="form-control select-search-box">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                    <div class="search-picks">
+                        <div class="row no-gutters search-picks-row">
+                            <div class="col-md-6">
+                                <div class="search-picks-input">
+                                    <label class="search-picks-title">
+                                        Children
+                                    </label>
+                                    <select name="" id="" class="form-control select-search-box">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="search-picks-input">
+                                    <label class="search-picks-title">
+                                        Infants
+                                    </label>
+                                    <select name="" id="" class="form-control select-search-box">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+                    <label class="search-result-box-title">No. of rooms</label>
+                        <select name="" id="" class="form-control select-search-box">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                        <div class="search-btn">
+                            <button type="submit" class="search-box-btn">Search</button>
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-9 col-md-12 second-row">
+                <div class="search-results-details-list">
+                    300+ stays · Feb 13 - Mar 14 · 2 guests
+                </div>
+                    <div class="search-results-topic">
+                        <h1 class="first-topic">Stays
+                            <span class="second-topic">in Nuwara Eliya</span>
+                        </h1>
+                    </div>
+                    <!-- <a href="details.html">
+                        
+
+                    </a> -->
+                    
+                    <div class="search-results-lists">
+                        <div class="search-results-wrap">
+                            <a class="link" href="details.html">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <div class="search-result-image-wrap">
+                                            <img src="assets/places/hotel1.jpg" class="result-img" alt="img">
+                                        </div>
+        
+                                    </div>
+                                    <div class="col-md-8 result-details">
+                                        <h1 class="hotel-name">The Grand Hotel</h1>
+                                        <div class="hotel-location">
+                                            Nuwara Eliya City Centre, Nuwara Eliya · 2 km from center
+                                        </div>
+                                        <div class="hotel-details-wrap">
+                                            <div class="hotel-details-icons"><span><img src="assets/places/icons/guest.png" class="hotel-icons" alt="img"></span> 4 guests</div>
+                                            <div class="hotel-details-icons"><span><img src="assets/places/icons/bed.png" class="hotel-icons" alt="img"></span> 2 bedrooms</div>
+                                            <div class="hotel-details-icons">· 2 beds</div>
+                                            <div class="hotel-details-icons"><span><img src="assets/places/icons/bath.png" class="hotel-icons" alt="img"></span> 1 bath</div>
+                                        </div>
+                                        <div class="hotel-second-details-wrap">
+                                            <div class="hotel-details-icons second-icon"><span><img src="assets/places/icons/wifi.png" class="hotel-icons" alt="img"></span> Wifi</div>
+                                            <div class="hotel-details-icons second-icon"><span><img src="assets/places/icons/parking.png" class="hotel-icons" alt="img"></span> Free parking</div>
+                                            <div class="hotel-details-icons second-icon"><span><img src="assets/places/icons/coffee.png" class="hotel-icons" alt="img"></span> Breakfast</div>
+                                        </div>
+                                        <div class="hotel-info">
+                                            Breakfast included
+                                        </div>
+                                        <div class="hotel-notice">
+                                            only 5 rooms like this left on our site
+                                        </div>
+                                        <div class="hotel-rating-wrap">
+                                            <div class="hotel-rating-icons"><span><img src="assets/places/star.png" class="hotel-start-icons" alt="img"></span> 4.82</div>
+                                            <div class="hotel-rating-second-icons"> (38)</div>
+                                            <div class="hotel-real-price">
+                                                <del>LKR 80,000</del>
+                                            </div>
+                                            <div class="hotel-discount-price">
+                                                LKR 50,000
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="search-results-lists">
+                        <div class="search-results-wrap">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="search-result-image-wrap">
+                                        <img src="assets/places/hotel1.jpg" class="result-img" alt="img">
+                                    </div>
+    
+                                </div>
+                                <div class="col-md-8 result-details">
+                                    <h1 class="hotel-name">The Grand Hotel</h1>
+                                    <div class="hotel-location">
+                                        Nuwara Eliya City Centre, Nuwara Eliya · 2 km from center
+                                    </div>
+                                    <div class="hotel-details-wrap">
+                                        <div class="hotel-details-icons"><span><img src="assets/places/icons/guest.png" class="hotel-icons" alt="img"></span> 4 guests</div>
+                                        <div class="hotel-details-icons"><span><img src="assets/places/icons/bed.png" class="hotel-icons" alt="img"></span> 2 bedrooms</div>
+                                        <div class="hotel-details-icons">· 2 beds</div>
+                                        <div class="hotel-details-icons"><span><img src="assets/places/icons/bath.png" class="hotel-icons" alt="img"></span> 1 bath</div>
+                                    </div>
+                                    <div class="hotel-second-details-wrap">
+                                        <div class="hotel-details-icons"><span><img src="assets/places/icons/wifi.png" class="hotel-icons" alt="img"></span> Wifi</div>
+                                        <div class="hotel-details-icons"><span><img src="assets/places/icons/parking.png" class="hotel-icons" alt="img"></span> Free parking</div>
+                                        <div class="hotel-details-icons"><span><img src="assets/places/icons/coffee.png" class="hotel-icons" alt="img"></span> Breakfast</div>
+                                    </div>
+                                    <div class="hotel-info">
+                                        Breakfast included
+                                    </div>
+                                    <div class="hotel-notice">
+                                        only 5 rooms like this left on our site
+                                    </div>
+                                    <div class="hotel-rating-wrap">
+                                        <div class="hotel-rating-icons"><span><img src="assets/places/star.png" class="hotel-start-icons" alt="img"></span> 4.82</div>
+                                        <div class="hotel-rating-second-icons"> (38)</div>
+                                        <div class="hotel-real-price">
+                                            <del>LKR 80,000</del>
+                                        </div>
+                                        <div class="hotel-discount-price">
+                                            LKR 50,000
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-page-navigation">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                          </nav>
+
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrap">
+        Copyright ©2020 All rights reserved
     </div>
 
 </body>

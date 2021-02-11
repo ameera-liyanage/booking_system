@@ -1,0 +1,139 @@
+@media only screen and (max-width: 992px) {
+   
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .search-result {
+        padding: 0 40px;
+    }
+
+    .detail-page-second-row {
+        padding: 15px 0px !important;
+    }
+
+    .top-image-wrapper img {
+        height: 100%;
+    }
+
+    .row-one-image {
+        height: 40vh;
+    }
+
+    .row-two-image {
+        padding-left: 0px;
+    }
+    
+    .facili-info-wrapper {
+        padding-top: 0px;
+    }
+
+    .top-image-wrapper {
+        height: 50vh;
+    }
+
+    .row-one-image {
+        height: 100%;
+    }
+
+    .row-two-image {
+        height: 100%;
+    }
+
+    .hotel-images-row-two {
+        height: 40vh;
+        margin-top: 15px;
+    }
+
+    .hotel-images-bottom-one {
+        padding: 8px 6px;
+    }
+
+    .bottom-one-image {
+        height: 100%;
+    }
+
+    .facili-info-image {
+        padding-top: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .search-result {
+        padding: 0 30px;
+    }
+
+    .detail-page-second-row {
+        padding: 0px 0px !important;
+    }
+
+    .hotel-page-name {
+        font-size: 38px;
+    }
+
+    .row-two-image {
+        padding-left: 0px;
+    }
+
+    .bottom-one-image {
+        padding: 8px 0;
+    }
+
+    .first-info-title {
+        font-size: 30px;
+    }
+
+    .facili-info-title {
+        font-size: 29px;
+        padding-top: 30px;
+    }
+
+    .facili-info-wrapper {
+        padding-top: 0;
+    }
+
+    .review-profile {
+        text-align: center;
+    }
+
+    .review-user-name {
+        text-align: center;
+    }
+
+    .review-post-date {
+        text-align: center;
+    }
+
+    .hotel-location-icons {
+        padding: 0px 5px;
+    }
+
+    .hotel-details-page-wrap {
+        flex-direction: column;
+    }
+
+    .top-image-wrapper {
+        height: 40vh;
+        margin-bottom: 15px;
+        padding-bottom: 0px;
+    }
+
+    .top-image-wrapper img {
+        height: 100%;
+    }
+
+    .image-space {
+        padding-top: 15px;
+    }
+
+    .row-two-image {
+        height: 100%;
+    }
+
+    .images-bottom-space {
+        padding-top: 10px;
+    }
+
+    .facili-info-image {
+        padding: 5px 0;
+    }
+  }

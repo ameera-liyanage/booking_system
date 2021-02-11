@@ -1,0 +1,227 @@
+@media only screen and (max-width: 992px) {
+    .choice-image {
+        height: 15vh;
+    }
+
+    .home-search-box {
+        padding: 30px 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .home-text-size {
+        padding: 0 40px;
+    }
+
+    .home-topic { 
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .home-search-box {
+        margin: 50px 0;
+        padding: 30px 25px;
+    }
+
+    .second-image {
+
+        margin: 0 7px;
+    }
+
+    .pick-dates-row {
+        padding: 10px 0;
+    }
+
+    .pick-dates-input {
+        padding: 10px 10px;
+    }
+
+    .accommodation {
+        padding: 10px 10px !important;
+    }
+
+    .search-btn {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .page-content {
+        padding: 30px 40px;
+    }
+
+    .first-topic {
+        font-size: 35px;
+    }
+
+    .select-wrapper {
+        padding: 0 40px;
+    }
+
+    .choice-image {
+        height: 30vh;
+    }
+
+    .image-category {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .image-number {
+        font-size: 20px;
+    }
+
+    .select-image {
+        padding: 15px 20px;
+    }
+
+    .detail-image {
+        margin: 40px 0px;
+        padding: 0px 40px;
+    }
+
+    .site-details {
+        margin: 55px 0;
+    }
+
+    .plus-number {
+        font-size: 50px;
+    }
+
+    .content-number {
+        font-size: 30px;
+    }
+    .home-content {
+        padding-right: 0;
+        text-align: center;
+    }
+
+
+  }
+  
+  @media only screen and (max-width: 575px) {
+      .header {
+          padding: 0;
+      }
+
+      .header-logo {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: unset;
+        text-align: center;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .contact-details {
+        display: none;
+    }
+
+    .phone-image {
+        position: relative;
+        top: 3px;
+        margin-right: 4px;
+    }
+
+    .images-wrapper {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: unset;
+        text-align: center;
+        padding-bottom: 12px;
+    }
+
+    .second-image {
+        margin: 0 4px;
+    }
+
+    .profile {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: unset;
+        display: none;
+    }
+
+    .home-text-size {
+        padding: 0 30px;
+    }
+
+    .home-topic {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .home-search-box {
+        margin: 38px 0;
+    }
+
+    .pick-dates-row {
+        padding: 15px 0;
+    }
+
+    .pick-dates-input {
+        padding: 10px 10px;
+    }
+
+    .accommodation {
+        padding: 10px 10px !important;
+    }
+
+    .first-topic {
+        font-size: 25px;
+    }
+
+    .image-category {
+        font-size: 21px;
+        padding-top: 7px;
+    }
+
+    .image-number {
+        font-size: 18px;
+    }
+
+    .select-image {
+        padding: 10px 20px;
+    }
+
+    .detail-image {
+        margin-top: 40px !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .site-details {
+        margin: 38px 0;
+    }
+
+    .plus-number {
+        font-size: 40px;
+    }
+
+    .content-number {
+        font-size: 30px;
+    }
+
+    .select-wrapper {
+        padding: 0 30px;
+    }
+
+    .choice-image {
+        height: 40vh;
+    }
+
+    .page-content {
+        padding: 20px 30px;
+    }
+
+    .home-content {
+        padding-right: 0;
+        text-align: center;
+    }
+  }

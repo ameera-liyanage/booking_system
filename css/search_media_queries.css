@@ -1,0 +1,115 @@
+@media only screen and (max-width: 992px) {
+    .result-img {
+        height: 32vh;
+        
+    }
+
+    .second-row {
+        padding: 0px !important;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .search-result {
+        padding: 0 40px;
+    }
+
+    .search-result-box {
+        padding: 30px 20px;
+    }
+
+    .search-results-details-list {
+        margin-top: 10px;
+    }
+
+    .second-row {
+        padding: 0 0px !important;
+    }
+
+    .result-img {
+        height: 40vh;
+    }
+
+    .result-details {
+        padding: 4px 0px !important;
+    }
+
+    .hotel-details-icons {
+        padding: 0 12px;
+    }
+
+    .hotel-rating-wrap {
+        padding-top: 50px; 
+    }
+
+    .hotel-discount-price {
+        margin-left: 12px;
+        font-size: 20px;
+    }
+
+    .hotel-real-price {
+        font-size: 20px;
+    }
+
+    .result-page-navigation {
+        padding-top: 40px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .search-result {
+        padding: 0 30px;
+    }
+
+    .search-result-box {
+        padding: 30px 15px;
+    }
+
+    .search-results-details-list {
+        margin-top: 0px;
+    }
+
+    .second-row {
+        padding: 0 0px !important;
+    }
+
+    .result-details {
+        padding: 0px 0px !important;
+    }
+
+    .result-img {
+        height: 35vh;
+    }
+
+    .hotel-rating-wrap {
+        padding-top: 40px; 
+    }
+
+    .hotel-discount-price {
+        margin-left: 8px;
+        font-size: 15px;
+    }
+
+    .hotel-real-price {
+        font-size: 15px;
+    }
+
+    .result-page-navigation {
+        padding-top: 40px;
+    }
+
+    .hotel-name {
+        padding-top: 12px;
+    }
+
+    .hotel-details-icons.second-icon span {
+        display: block;
+    }
+
+    .hotel-details-wrap {
+        padding-top: 20px;
+    }
+    
+  }

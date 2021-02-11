@@ -1,7 +1,19 @@
+/*header CSS classes*/
 .header {
     background-color: #FFCB05;
     padding: 15px 60px;
     position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+.logo {
+    width: 50%;
 }
 
 .contact-details {
@@ -37,13 +49,118 @@
 .images-wrapper {
     position: absolute;
     top: 50%;
-    right: 15%;
+    right: 8%;
     transform: translateY(-50%);
 }
 
 .second-image {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 0 12px;
 }
+
+
+/*search page & details page search box CSS classes*/
+.search-result {
+    padding: 0 60px;
+}
+
+.search-result-row {
+
+}
+
+.search-result-box {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(214 214 214);
+    margin: 45px 0;
+    padding: 30px 25px;
+    border-radius: 15px;
+}
+
+.search-result-box-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.search-result-box-input {
+    padding-bottom: 25px;
+
+}
+
+.place-input {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+}
+
+.search-input-box {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+
+}
+
+.select-search-box {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+    margin-bottom: 25px;
+}
+
+.search-picks {
+
+}
+
+.search-picks-row {
+  
+    margin: 0 -10px;
+
+}
+
+.search-picks-input {
+    padding: 0 10px;
+
+}
+
+.search-picks-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.search-picker {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+
+}
+
+.search-btn {
+    text-align: center;
+}
+
+.search-box-btn {
+    padding: 10px 35px;
+    border-radius: 15px;
+    background-color: #FFCB05;
+    border: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
 

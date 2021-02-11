@@ -1,0 +1,157 @@
+.map-view {
+    width: 100% !important;
+}
+.map-size {
+    width: 100% !important;
+}
+
+.second-row {
+    padding: 25px !important; 
+}
+
+.search-results-details-list {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 55px;
+}
+
+.search-results-topic {
+    margin-top: 5px;
+}
+
+.first-topic {
+    color: #474747;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.second-topic {
+    color: #FFCD05;
+}
+
+.search-results-wrap {
+    padding: 15px 15px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(214 214 214);
+    border-radius: 12px;
+
+}
+
+.search-result-image-wrap {
+
+}
+
+.result-img {
+    width: 100%;
+    height: 46vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+
+}
+
+.result-details {
+    padding: 0px 15px !important;
+}
+
+.hotel-name {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 !important;
+}
+
+.hotel-location {
+    font-size: 14px;
+    color: #C8C8C8;
+    font-weight: 600;
+
+}
+
+.hotel-details-wrap {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+
+}
+
+.hotel-details-icons {
+    padding: 0 6px;
+
+}
+
+.hotel-icons {
+    
+}
+
+.hotel-second-details-wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 3px 0;
+}
+
+.hotel-info {
+    padding-top: 12px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hotel-notice {
+    padding-top: 8px;
+    color: red;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.hotel-rating-wrap {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
+
+.hotel-start-icons {
+    width: 15px;
+}
+
+.hotel-rating-icons {
+    padding: 0 6px;
+}
+
+.hotel-rating-second-icons {
+    padding: 0 0px;
+}
+
+.hotel-real-price {
+    color: red;
+    margin-left: auto;
+    font-size: 17px;
+}
+
+.hotel-discount-price {
+    margin-left: 8px;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+.result-page-navigation {
+    padding-top: 50px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black !important;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+.footer-wrap {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FFCB05;
+    color: white;
+    font-weight: 800;
+}

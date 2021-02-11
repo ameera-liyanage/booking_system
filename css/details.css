@@ -1,0 +1,375 @@
+.detail-page-second-row {
+    padding: 30px 25px !important;
+    padding-right: 0 !important;
+}
+
+.hotel-page-name {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.hotel-details-page-wrap {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+}
+
+.hotel-rating-icons {
+    padding: 0 6px;
+}
+
+.hotel-start-icons {
+    width: 15px;
+}
+
+.hotel-rating-second-icons {
+    padding: 0 0px;
+}
+
+.hotel-location-icons {
+    padding: 0px 15px;
+}
+
+.images-top-space {
+    padding-top: 25px;
+}
+
+.hotel-images-row-one {
+
+}
+
+.hotel-images-row-two {
+
+}
+
+.row-one-image {
+    width: 100%;
+    /* margin-bottom: 10px; */
+    height: 28vh;
+}
+
+.top-image-wrapper {
+    height: 28vh;
+    padding-bottom: 10px;
+    
+} 
+
+.top-image-wrapper img {
+    height: 26vh;
+    width: 100%;
+}
+
+.image-space {
+
+}
+
+.row-two-image {
+    width: 100%;
+    height: 56vh;
+    object-fit: cover;
+    object-position: center;
+    padding-left: 12px;
+}
+
+.images-bottom-space {
+    padding-top: 12px;
+    margin: 0 -6px !important;
+
+}
+
+.hotel-images-bottom-one{
+    padding: 0 6px;
+
+}
+
+.bottom-one-image {
+    width: 100%;
+    height: 32vh;
+}
+
+.place-details {
+    font-size: 18px;
+    margin: 0 !important;
+    padding-top: 15px;
+}
+
+.first-info-title {
+    font-size: 35px;
+font-weight: 700;
+padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+.reserve-box {
+    padding: 15px 15px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(214 214 214);
+    border-radius: 12px;
+
+}
+
+.reserve-box-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.reserve-box-real-price {
+    color: gray;
+    margin: 0 10px;
+    font-size: 20px;
+
+}
+
+.reserve-box-discount-price {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.pick-dates {
+
+}
+
+.pick-dates-row {
+    padding: 30px 0;
+    margin: 0 -10px;
+
+}
+
+.pick-dates-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.pick-dates-input {
+    padding: 0 10px;
+
+}
+
+.date-picker-input {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+}
+
+.dropdown-wrapper {
+
+}
+
+.dropdown-wrapper-row {
+    margin: 0 -10px !important;
+}
+
+.accommodation {
+    padding: 0 10px !important;
+}
+
+.dropdown-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.select-dropdown-box {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+
+}
+
+.other-price-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.first-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.first-price {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.other-two-price-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.other-three-price-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.line {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    height: 2px;
+}
+
+.other-four-price-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.search-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.search-box-btn {
+    padding: 10px 35px;
+    border-radius: 15px;
+    background-color: #FFCB05;
+    border: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.facili-info {
+   
+}
+
+/* .search-input-box {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 7px;
+    background-color: #EBECEE;
+    border: 0 solid #EBECEE;
+    color: #8F8F8F;
+
+} 
+
+.search-result-box-input {
+    padding-bottom: 25px;
+
+}
+
+.search-result-box-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+} */
+
+.facili-info-title {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.facili-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.facili-info-image {
+    padding-top: 10px;
+}
+
+.facili-image {
+    width: 45px;
+
+}
+
+.facili-info-text {
+
+}
+
+.image-info {
+    margin-right: 45px;
+}
+
+.reviews-info-title {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.review-list-wrapper {
+    padding: 15px 15px !important;
+    
+}
+
+.review-list {
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(214 214 214);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.reviews-info-wrapper {
+
+}
+
+.review-profile {
+
+}
+
+.review-image {
+    width: 75px;
+
+}
+
+.review-details {
+    padding: 5px 0px;
+
+}
+
+.review-user-name {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.review-post-date {
+    font-size: 16px;
+
+}
+
+.review-post {
+    padding-top: 30px;
+}
+
+.hotel-info-content {
+    padding-right: 30px !important;
+}
+
+.marstrech {
+    margin: 0 -15px;
+}
+
+.footer-wrap {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FFCB05;
+    color: white;
+    font-weight: 800;
+}
